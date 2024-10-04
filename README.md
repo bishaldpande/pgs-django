@@ -31,3 +31,12 @@ Step 4 Getting Started:
 Check the links: 
 - [http://localhost:8000/](http://localhost:8000/)
 - [http://localhost:8000/admin/](http://localhost:8000/admin/)
+
+
+# Start APP
+
+```bash
+>>> python manage.py startapp <my_app>
+```
+
+Add the name <my_app> in the settings.py in installed app.
