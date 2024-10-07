@@ -40,3 +40,22 @@ Check the links:
 ```
 
 Add the name <my_app> in the settings.py in installed app.
+
+
+# TO create a database table
+- Create a class of the name of the model in models.py
+- Add appropriate fields to the model
+- Run the makemigrations and migrate command
+
+```bash
+>>> python manage.py makemigrations  # create the code to create database
+>>> python manage.py migrate # apply the code and create the database
+```
+
+>>> Django uses sqlite3 file based databse by default.
+
+# Add to admin
+- to register model add the following to the admin.py file.
+```
+admin.site.register(MyModel)
+```
